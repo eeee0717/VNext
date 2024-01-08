@@ -18,6 +18,6 @@ public class IdDbContext : IdentityDbContext<User, Role, Guid>
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
-        // modelBuilder.EnableSoftDeletionGlobalFilter();
+        modelBuilder.EnableSoftDeletionGlobalFilter();
     }
 }

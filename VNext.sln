@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{79B7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainCommons", "DomainCommons\DomainCommons.csproj", "{7DAEB16F-94FD-49FD-BF6E-7EBF6870B20A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5E7EDB1E-44C7-4691-B939-E651B13E4F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,7 @@ Global
 		{46ED1B1C-FC50-4341-9CE0-FE394D5CB8AA} = {62B9E75D-F851-4ACF-A089-9D79FE0981EC}
 		{5B4D5365-2B05-48AB-A3B2-E6E8E4C79B4E} = {62B9E75D-F851-4ACF-A089-9D79FE0981EC}
 		{7DAEB16F-94FD-49FD-BF6E-7EBF6870B20A} = {79B72AEF-7E71-45B8-8F1C-60F0F1ED2EFF}
+		{5E7EDB1E-44C7-4691-B939-E651B13E4F69} = {79B72AEF-7E71-45B8-8F1C-60F0F1ED2EFF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{80D8C6F8-BF6A-47D3-A20F-0834D3D4F5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +43,9 @@ Global
 		{7DAEB16F-94FD-49FD-BF6E-7EBF6870B20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DAEB16F-94FD-49FD-BF6E-7EBF6870B20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DAEB16F-94FD-49FD-BF6E-7EBF6870B20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7EDB1E-44C7-4691-B939-E651B13E4F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7EDB1E-44C7-4691-B939-E651B13E4F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7EDB1E-44C7-4691-B939-E651B13E4F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7EDB1E-44C7-4691-B939-E651B13E4F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
