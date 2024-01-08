@@ -8,38 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fc988-5cff-42d4-bcdd-187593625cc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.VNext_failed/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.VNext_failed/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.VNext_failed/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.VNext_failed/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/VNext.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb/storage_v2/_src_/schema/IdentityService.9_PnDQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/409c53bc-bb02-4c74-8405-b086159520bb/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Migrations/20240108113941_InitialIdentityService.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Migrations/20240108113941_InitialIdentityService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Migrations/IdDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonInitializer/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommonInitializer/WebApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/Configs/UserConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Configs/UserConfig.cs" afterDir="false" />
+    <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/DesignTimeDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/DesignTimeDbContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VNext.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VNext_failed.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/115845ef68e64f289dfe84e09b4a920c1a8a0/e8/c2a99670/IdentityDbContext`3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8bc9cdb23bc146bcaaae0bb9e45e5d46d9dc00/0e/f5f356c5/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a3b08945fe694ada8e369b01cdc215ea1fd628/61/19dee998/DbContextOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf878a1b8ec14c0f8ee161a4fd25910c19c00/19/3616bdb9/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7cf86170b034a7fa502b50d2ff9698419710/26/0cbcda2f/IdentityUserContext`5.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7cf86170b034a7fa502b50d2ff9698419710/41/1bf83f0d/IdentityDbContext`3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7cf86170b034a7fa502b50d2ff9698419710/d0/bbe37965/IdentityDbContext`8.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/357b04bb21cfefd40d8bcb16cce0bb2492aed1a2394295a550514389f89688/MySqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2aeZE0qVUA7fQMGfaaOes6NxytV" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2affAZHFoG1AGWOCTYYM7ePLb8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -78,10 +39,8 @@
   "keyToString": {
     ".NET 启动设置配置文件.IdentityService.WebAPI: http.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,7 +76,7 @@
     </configuration>
     <configuration name="IdentityService.WebAPI: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -139,7 +98,7 @@
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
-                <option name="containerPort" value="8080" />
+                <option name="containerPort" value="80" />
                 <option name="hostIp" value="127.0.0.1" />
                 <option name="hostPort" value="8080" />
               </DockerPortBindingImpl>
@@ -152,86 +111,48 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <deployment type="dockerfile" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue=".NET 启动设置配置文件.IdentityService.WebAPI: http" />
-      <item itemvalue=".NET 启动设置配置文件.IdentityService.WebAPI: https" />
-      <item itemvalue="Docker.IdentityService.WebAPI/Dockerfile" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="dc4fc988-5cff-42d4-bcdd-187593625cc5" name="更改" comment="" />
-      <created>1704680890892</created>
+      <changelist id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="" />
+      <created>1704714410534</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1704680890892</updated>
-      <workItem from="1704680892068" duration="15447000" />
-      <workItem from="1704704534760" duration="7513000" />
+      <updated>1704714410534</updated>
+      <workItem from="1704714411601" duration="891000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: Init">
+    <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
-      <created>1704685483222</created>
+      <created>1704714553613</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1704685483222</updated>
+      <updated>1704714553613</updated>
     </task>
-    <task id="LOCAL-00002" summary="feat: 连接字符串完成，数据库待创建">
+    <task id="LOCAL-00002" summary="feat: 完成IdentityService数据库迁移">
       <option name="closed" value="true" />
-      <created>1704700714856</created>
+      <created>1704715070173</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1704700714856</updated>
+      <updated>1704715070173</updated>
     </task>
-    <task id="LOCAL-00003" summary="bug: 数据库迁移失败">
-      <option name="closed" value="true" />
-      <created>1704704588417</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1704704588417</updated>
-    </task>
-    <task id="LOCAL-00004" summary="bug: 数据库迁移">
-      <option name="closed" value="true" />
-      <created>1704706027597</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1704706027597</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: Init" />
-    <MESSAGE value="feat: 连接字符串完成，数据库待创建" />
-    <MESSAGE value="bug: 数据库迁移失败" />
-    <MESSAGE value="bug: 数据库迁移" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug: 数据库迁移" />
+    <MESSAGE value="Init" />
+    <MESSAGE value="feat: 完成IdentityService数据库迁移" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成IdentityService数据库迁移" />
   </component>
 </project>
