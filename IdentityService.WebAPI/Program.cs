@@ -1,16 +1,25 @@
+using CommonInitializer;
 using IdentityService.Domain;
 using IdentityService.Infrastructure;
+using IdentityService.Infrastructure.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+// 可以优化成通用初始化
 builder.Services.AddDbContextFactory<IdDbContext>(options =>
 {
   options.UseMySql("server=127.0.0.1;port=3306;user=root;password=123456;database=IdentityService;",
     ServerVersion.Parse("8.2.0-mysql"));
 });
+
+// builder.ConfigureExtraServices(new InitializerOptions
+// {
+//   EventBusQueueName = "IdentityService.WebAPI",
+//   LogFilePath = "./log/IdentityService.log"
+// });
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -37,18 +46,29 @@ idBuilder.AddEntityFrameworkStores<IdDbContext>()
   .AddRoleManager<RoleManager<Role>>()
   .AddUserManager<IdUserManager>();
 
+
+if (builder.Environment.IsDevelopment())
+{
+  builder.Services.AddScoped<IEmailSender, MockEmailSender>();
+  builder.Services.AddScoped<ISmsSender, MockSmsSender>();
+}
+// else
+// {
+//   builder.Services.AddScoped<IEmailSender, SendCloudEmailSender>();
+//   builder.Services.AddScoped<ISmsSender, SendCloudSmsSender>();
+// }
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (builder.Environment.IsDevelopment())
 {
+  app.UseDeveloperExceptionPage();
   app.UseSwagger();
-  app.UseSwaggerUI();
+  app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "IdentityService.WebAPI v1"));
 }
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
+// app.UseDefault();
 
 app.MapControllers();
 

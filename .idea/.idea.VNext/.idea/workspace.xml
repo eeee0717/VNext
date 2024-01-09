@@ -9,11 +9,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonInitializer/ApplicationBuilderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonInitializer/CommonInitializer.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonInitializer/InitializerOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonInitializer/WebApplicationBuilderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/ASPNETCore/ASPNETCore.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/ASPNETCore/ModuleInitializerExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/Commons.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/IModuleInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/ReflectionHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventBus/ApplicationBuilderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventBus/EventBus.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventBus/IEventBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/IEmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/ISmsSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Services/MockEmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/Services/MockSmsSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/EFCore/EFCoreInitializerHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VNext.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +40,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Commons/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/41766c4cf87745fa9314f788409962a1f800/a8/e89ba706/AsmResolver.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2affAZHFoG1AGWOCTYYM7ePLb8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,29 +56,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET 启动设置配置文件.IdentityService.WebAPI: http.executor": "Run",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET 启动设置配置文件.IdentityService.WebAPI: http.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/eeee/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/eeee/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET 启动设置配置文件.IdentityService.WebAPI: http">
     <configuration name="IdentityService.WebAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" />
@@ -111,7 +132,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -123,7 +147,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704714410534</updated>
-      <workItem from="1704714411601" duration="891000" />
+      <workItem from="1704714411601" duration="1883000" />
+      <workItem from="1704775583075" duration="3876000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -141,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704715070173</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: edit Program.cs">
+      <option name="closed" value="true" />
+      <created>1704715457944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715457944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: add some dependency">
+      <option name="closed" value="true" />
+      <created>1704716264549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704716264549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +194,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="feat: 完成IdentityService数据库迁移" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成IdentityService数据库迁移" />
+    <MESSAGE value="chore: edit Program.cs" />
+    <MESSAGE value="chore: add some dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add some dependency" />
   </component>
 </project>
