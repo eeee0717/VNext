@@ -18,7 +18,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\IdentityService.Domain\IdentityService.Domain.csproj" />
-      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+      <ProjectReference Include="..\VNext.Infrastructure\VNext.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

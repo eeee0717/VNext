@@ -1,6 +1,6 @@
 using System.Linq;
 using System.Linq.Expressions;
-using DomainCommons.Models;
+using VNext.DomainCommons.Models;
 
 namespace Microsoft.EntityFrameworkCore;
 

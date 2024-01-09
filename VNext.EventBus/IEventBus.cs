@@ -1,4 +1,4 @@
-namespace EventBus;
+namespace VNext.EventBus;
 
 public interface IEventBus
 {

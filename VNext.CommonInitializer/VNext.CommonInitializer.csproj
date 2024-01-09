@@ -13,9 +13,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Commons\Commons.csproj" />
-      <ProjectReference Include="..\EventBus\EventBus.csproj" />
-      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+      <ProjectReference Include="..\VNext.ASPNETCore\VNext.ASPNETCore.csproj" />
+      <ProjectReference Include="..\VNext.Commons\VNext.Commons.csproj" />
+      <ProjectReference Include="..\VNext.EventBus\VNext.EventBus.csproj" />
+      <ProjectReference Include="..\VNext.Infrastructure\VNext.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

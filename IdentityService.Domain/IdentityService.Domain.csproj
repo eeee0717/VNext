@@ -11,7 +11,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DomainCommons\DomainCommons.csproj" />
+      <ProjectReference Include="..\Commons\VNext.JWT\VNext.JWT.csproj" />
+      <ProjectReference Include="..\VNext.DomainCommons\VNext.DomainCommons.csproj" />
     </ItemGroup>
 
 </Project>

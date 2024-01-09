@@ -1,4 +1,4 @@
-using CommonInitializer;
+using VNext.CommonInitializer;
 using IdentityService.Domain;
 using IdentityService.Infrastructure;
 using IdentityService.Infrastructure.Services;

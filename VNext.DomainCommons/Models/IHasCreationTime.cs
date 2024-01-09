@@ -1,4 +1,4 @@
-namespace DomainCommons.Models;
+namespace VNext.DomainCommons.Models;
 
 public interface IHasCreationTime
 {

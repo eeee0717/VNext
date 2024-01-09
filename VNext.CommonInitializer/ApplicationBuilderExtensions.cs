@@ -1,7 +1,7 @@
-using EventBus;
+using VNext.EventBus;
 using Microsoft.AspNetCore.Builder;
 
-namespace CommonInitializer;
+namespace VNext.CommonInitializer;
 
 public static class ApplicationBuilderExtensions
 {

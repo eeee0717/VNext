@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 
-namespace EventBus;
+namespace VNext.EventBus;
 
 public static class ApplicationBuilderExtensions
 {

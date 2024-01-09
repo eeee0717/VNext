@@ -1,4 +1,4 @@
-namespace CommonInitializer;
+namespace VNext.CommonInitializer;
 
 public class InitializerOptions
 {

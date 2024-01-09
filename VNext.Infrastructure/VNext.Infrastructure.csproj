@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DomainCommons\DomainCommons.csproj" />
+      <ProjectReference Include="..\VNext.DomainCommons\VNext.DomainCommons.csproj" />
     </ItemGroup>
 
     <ItemGroup>

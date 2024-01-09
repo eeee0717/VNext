@@ -1,4 +1,4 @@
-using DomainCommons.Models;
+using VNext.DomainCommons.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace IdentityService.Domain;
