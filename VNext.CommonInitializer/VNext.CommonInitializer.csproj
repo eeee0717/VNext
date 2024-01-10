@@ -10,9 +10,11 @@
       <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Commons\VNext.JWT\VNext.JWT.csproj" />
       <ProjectReference Include="..\VNext.ASPNETCore\VNext.ASPNETCore.csproj" />
       <ProjectReference Include="..\VNext.Commons\VNext.Commons.csproj" />
       <ProjectReference Include="..\VNext.EventBus\VNext.EventBus.csproj" />

@@ -1,8 +1,13 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using VNext.ASPNETCore;
 using VNext.Commons;
+using VNext.JWT;
 
 namespace VNext.CommonInitializer;
 
@@ -19,6 +24,24 @@ public static class WebApplicationBuilderExtensions
       ctx.UseMySql("server=127.0.0.1;port=3306;user=root;password=123456;database=IdentityService;",
         ServerVersion.Parse("8.2.0-mysql"));
     }, assemblies);
-
+    //开始:Authentication,Authorization
+    //只要需要校验Authentication报文头的地方（非IdentityService.WebAPI项目）也需要启用这些
+    //IdentityService项目还需要启用AddIdentityCore
+    builder.Services.AddAuthorization();
+    builder.Services.AddAuthentication();
+    JWTOptions jwtOpt = configuration.GetSection("JWT").Get<JWTOptions>();
+    builder.Services.AddJwtAuthentication(jwtOpt);
+    //启用Swagger中的【Authorize】按钮。这样就不用每个项目的AddSwaggerGen中单独配置了
+    builder.Services.Configure<SwaggerGenOptions>(c =>
+    {
+      c.AddAuthenticationHeader();
+    });
+    //结束:Authentication,Authorization
+    // 进程内进行消息传递
+    services.AddMediatR(assemblies);
+    services.Configure<MvcOptions>(options =>
+    {
+      options.Filters.Add<UnitOfWorkFilter>();
+    });
   }
 }

@@ -8,18 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/IdentityHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/ModuleInitializer.cs" afterDir="false" />
+    <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="feat:认证服务第一次跑通">
+      <change afterPath="$PROJECT_DIR$/Commons/VNext.JWT/AuthenticationExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commons/VNext.JWT/SwaggerGenOptionsExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VNext.DomainCommons/Models/IDomainEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VNext.Infrastructure/EFCore/MediatorExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdUserManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdUserManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VNext.ASPNETCore/ModuleInitializerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.ASPNETCore/ModuleInitializerExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commons/VNext.JWT/VNext.JWT.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/VNext.JWT/VNext.JWT.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.CommonInitializer/VNext.CommonInitializer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/VNext.CommonInitializer.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VNext.CommonInitializer/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/WebApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VNext.Commons/IModuleInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/IModuleInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VNext.Commons/ReflectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/ReflectionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.DomainCommons/VNext.DomainCommons.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.DomainCommons/VNext.DomainCommons.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.Infrastructure/VNext.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Infrastructure/VNext.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Commons/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/294acb554f6a407b99265f5868b48406fc00/98/02c709b8/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/41766c4cf87745fa9314f788409962a1f800/a8/e89ba706/AsmResolver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -141,7 +140,7 @@
       <updated>1704714410534</updated>
       <workItem from="1704714411601" duration="1883000" />
       <workItem from="1704775583075" duration="5407000" />
-      <workItem from="1704872658848" duration="678000" />
+      <workItem from="1704872658848" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704782338556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:认证服务第一次跑通">
+      <option name="closed" value="true" />
+      <created>1704873696480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704873696480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,24 +214,12 @@
     <MESSAGE value="chore: add some dependency" />
     <MESSAGE value="feat: add some extensions" />
     <MESSAGE value="ARCHIVIST" />
-    <option name="LAST_COMMIT_MESSAGE" value="ARCHIVIST" />
+    <MESSAGE value="feat:认证服务第一次跑通" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:认证服务第一次跑通" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/IdentityService.Domain/IdDomainService.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/IdentityService.Domain/IdDomainService.cs" initialLine="19" containingFunctionPresentation="构造函数 'IdDomainService'">
-            <startOffsets>
-              <option value="558" />
-            </startOffsets>
-            <endOffsets>
-              <option value="579" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/IdentityService.WebAPI/Program.cs</url>
           <line>60</line>
