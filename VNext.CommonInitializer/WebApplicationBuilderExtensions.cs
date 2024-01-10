@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using VNext.ASPNETCore;
 using VNext.Commons;
+using VNext.Commons.JsonConverters;
 using VNext.JWT;
 
 namespace VNext.CommonInitializer;
@@ -42,6 +43,11 @@ public static class WebApplicationBuilderExtensions
     services.Configure<MvcOptions>(options =>
     {
       options.Filters.Add<UnitOfWorkFilter>();
+    });
+    services.Configure<JsonOptions>(options =>
+    {
+      //设置时间格式。而非“2008-08-08T08:08:08”这样的格式
+      options.JsonSerializerOptions.Converters.Add(new DateTimeJsonConverter("yyyy-MM-dd HH:mm:ss"));
     });
   }
 }
