@@ -15,11 +15,11 @@ builder.Services.AddDbContextFactory<IdDbContext>(options =>
     ServerVersion.Parse("8.2.0-mysql"));
 });
 
-// builder.ConfigureExtraServices(new InitializerOptions
-// {
-//   EventBusQueueName = "IdentityService.WebAPI",
-//   LogFilePath = "./log/IdentityService.log"
-// });
+builder.ConfigureExtraServices(new InitializerOptions
+{
+  EventBusQueueName = "IdentityService.WebAPI",
+  LogFilePath = "./log/IdentityService.log"
+});
 
 builder.Services.AddSwaggerGen(c =>
 {

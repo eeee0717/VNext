@@ -14,5 +14,8 @@ public class IdUserManager : UserManager<User>
     optionsAccessor, passwordHasher, userValidators, passwordValidators, keyNormalizer, errors, services, logger)
   {
   }
-
+  public IUserLoginStore<User> UserLoginStore
+  {
+    get { return (IUserLoginStore<User>)this.Store; }
+  }
 }

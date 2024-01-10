@@ -8,38 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="feat: add some extensions">
-      <change afterPath="$PROJECT_DIR$/Commons/VNext.JWT/ITokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commons/VNext.JWT/JWTOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/IIdRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/IdDomainService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentityService.WebAPI/Controllers/Login/LoginController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VNext.DomainCommons/VNext.DomainCommons.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonInitializer/ApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/ApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonInitializer/CommonInitializer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/VNext.CommonInitializer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonInitializer/InitializerOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/InitializerOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonInitializer/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/WebApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/ASPNETCore/ASPNETCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.ASPNETCore/VNext.ASPNETCore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/ASPNETCore/ModuleInitializerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.ASPNETCore/ModuleInitializerExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/Commons.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/VNext.Commons.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/IModuleInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/IModuleInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/ReflectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/ReflectionHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DomainCommons/DomainCommons.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/VNext.JWT/VNext.JWT.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DomainCommons/Models/IHasCreationTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.DomainCommons/Models/IHasCreationTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DomainCommons/Models/IHasDeletionTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.DomainCommons/Models/IHasDeletionTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DomainCommons/Models/ISoftDelete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.DomainCommons/Models/ISoftDelete.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventBus/ApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.EventBus/ApplicationBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventBus/EventBus.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.EventBus/VNext.EventBus.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventBus/IEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.EventBus/IEventBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.Domain/IdentityService.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Domain/IdentityService.Domain.csproj" afterDir="false" />
+    <list default="true" id="d8888137-1038-4dc7-8652-0d2f45c0bf80" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/IdentityService.Domain/IdentityHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/ModuleInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VNext/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdUserManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdUserManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/EFCore/EFCoreExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Infrastructure/EFCore/EFCoreExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/EFCore/EFCoreInitializerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Infrastructure/EFCore/EFCoreInitializerHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Infrastructure/VNext.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VNext.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.ASPNETCore/ModuleInitializerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.ASPNETCore/ModuleInitializerExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.CommonInitializer/WebApplicationBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.CommonInitializer/WebApplicationBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.Commons/IModuleInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/IModuleInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VNext.Commons/ReflectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VNext.Commons/ReflectionHelper.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET 启动设置配置文件.IdentityService.WebAPI: http.executor": "Debug",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET 启动设置配置文件.IdentityService.WebAPI: http.executor&quot;: &quot;Debug&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/eeee/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/eeee/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/eeee/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET 启动设置配置文件.IdentityService.WebAPI: http">
     <configuration name="IdentityService.WebAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/IdentityService.WebAPI/IdentityService.WebAPI.csproj" />
@@ -160,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704714410534</updated>
       <workItem from="1704714411601" duration="1883000" />
-      <workItem from="1704775583075" duration="5058000" />
+      <workItem from="1704775583075" duration="5407000" />
+      <workItem from="1704872658848" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -202,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704780877520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ARCHIVIST">
+      <option name="closed" value="true" />
+      <created>1704782338556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704782338556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +206,65 @@
     <MESSAGE value="chore: edit Program.cs" />
     <MESSAGE value="chore: add some dependency" />
     <MESSAGE value="feat: add some extensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add some extensions" />
+    <MESSAGE value="ARCHIVIST" />
+    <option name="LAST_COMMIT_MESSAGE" value="ARCHIVIST" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IdentityService.Domain/IdDomainService.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/IdentityService.Domain/IdDomainService.cs" initialLine="19" containingFunctionPresentation="构造函数 'IdDomainService'">
+            <startOffsets>
+              <option value="558" />
+            </startOffsets>
+            <endOffsets>
+              <option value="579" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IdentityService.WebAPI/Program.cs</url>
+          <line>60</line>
+          <properties documentPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" initialLine="60" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="2048" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2074" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IdentityService.WebAPI/Program.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" initialLine="49" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1724" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1764" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/IdentityService.WebAPI/Program.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/IdentityService.WebAPI/Program.cs" initialLine="63" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="2116" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2156" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

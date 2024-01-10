@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Reflection.Metadata;
 using System.Reflection.PortableExecutable;
 
-namespace Commons;
+namespace VNext.Commons;
 
 public static class ReflectionHelper
 {
